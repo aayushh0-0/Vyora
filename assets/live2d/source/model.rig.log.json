@@ -1,0 +1,1569 @@
+{
+  "version": 1,
+  "timestamp": "2026-10-05T16:40:56.058Z",
+  "modelName": "model",
+  "canvas": {
+    "W": 1280,
+    "H": 1280
+  },
+  "meshSummary": [
+    {
+      "tag": "handwear-r",
+      "bbox": {
+        "minX": 129,
+        "minY": 640,
+        "maxX": 576,
+        "maxY": 1278,
+        "W": 447,
+        "H": 638,
+        "cx": 352.5,
+        "cy": 959,
+        "aspect": 0.700626959247649
+      },
+      "vertexCount": 277
+    },
+    {
+      "tag": "handwear-l",
+      "bbox": {
+        "minX": 772,
+        "minY": 481,
+        "maxX": 1186,
+        "maxY": 1108,
+        "W": 414,
+        "H": 627,
+        "cx": 979,
+        "cy": 794.5,
+        "aspect": 0.6602870813397129
+      },
+      "vertexCount": 284
+    },
+    {
+      "tag": "irides-r",
+      "bbox": {
+        "minX": 549,
+        "minY": 405,
+        "maxX": 586,
+        "maxY": 441,
+        "W": 37,
+        "H": 36,
+        "cx": 567.5,
+        "cy": 423,
+        "aspect": 1.0277777777777777
+      },
+      "vertexCount": 24
+    },
+    {
+      "tag": "irides-l",
+      "bbox": {
+        "minX": 651,
+        "minY": 364,
+        "maxX": 693,
+        "maxY": 403,
+        "W": 42,
+        "H": 39,
+        "cx": 672,
+        "cy": 383.5,
+        "aspect": 1.0769230769230769
+      },
+      "vertexCount": 29
+    },
+    {
+      "tag": "front hair",
+      "bbox": {
+        "minX": 412,
+        "minY": 0,
+        "maxX": 1279,
+        "maxY": 1278,
+        "W": 867,
+        "H": 1278,
+        "cx": 845.5,
+        "cy": 639,
+        "aspect": 0.6784037558685446
+      },
+      "vertexCount": 322
+    },
+    {
+      "tag": "eyewhite-r",
+      "bbox": {
+        "minX": 531,
+        "minY": 409,
+        "maxX": 586,
+        "maxY": 444,
+        "W": 55,
+        "H": 35,
+        "cx": 558.5,
+        "cy": 426.5,
+        "aspect": 1.5714285714285714
+      },
+      "vertexCount": 30
+    },
+    {
+      "tag": "eyewhite-l",
+      "bbox": {
+        "minX": 638,
+        "minY": 360,
+        "maxX": 702,
+        "maxY": 406,
+        "W": 64,
+        "H": 46,
+        "cx": 670,
+        "cy": 383,
+        "aspect": 1.391304347826087
+      },
+      "vertexCount": 42
+    },
+    {
+      "tag": "eyelash-r",
+      "bbox": {
+        "minX": 515,
+        "minY": 393,
+        "maxX": 588,
+        "maxY": 448,
+        "W": 73,
+        "H": 55,
+        "cx": 551.5,
+        "cy": 420.5,
+        "aspect": 1.3272727272727274
+      },
+      "vertexCount": 44
+    },
+    {
+      "tag": "eyelash-l",
+      "bbox": {
+        "minX": 621,
+        "minY": 352,
+        "maxX": 712,
+        "maxY": 407,
+        "W": 91,
+        "H": 55,
+        "cx": 666.5,
+        "cy": 379.5,
+        "aspect": 1.6545454545454545
+      },
+      "vertexCount": 58
+    },
+    {
+      "tag": "eyebrow-r",
+      "bbox": {
+        "minX": 511.6741857271437,
+        "minY": 384,
+        "maxX": 570.9471346164158,
+        "maxY": 408.6741857271437,
+        "W": 59.27294888927213,
+        "H": 24.67418572714371,
+        "cx": 541.3106601717798,
+        "cy": 396.33709286357185,
+        "aspect": 2.402225124862655
+      },
+      "vertexCount": 14
+    },
+    {
+      "tag": "eyebrow-l",
+      "bbox": {
+        "minX": 609,
+        "minY": 337,
+        "maxX": 703.232828269945,
+        "maxY": 379,
+        "W": 94.232828269945,
+        "H": 42,
+        "cx": 656.1164141349725,
+        "cy": 358,
+        "aspect": 2.243638768332024
+      },
+      "vertexCount": 24
+    },
+    {
+      "tag": "nose",
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 1279,
+        "maxY": 1279,
+        "W": 1279,
+        "H": 1279,
+        "cx": 639.5,
+        "cy": 639.5,
+        "aspect": 1
+      },
+      "vertexCount": 147
+    },
+    {
+      "tag": "mouth",
+      "bbox": {
+        "minX": 0.3186258172100729,
+        "minY": 0,
+        "maxX": 1279,
+        "maxY": 1279,
+        "W": 1278.68137418279,
+        "H": 1279,
+        "cx": 639.659312908605,
+        "cy": 639.5,
+        "aspect": 0.9997508789544879
+      },
+      "vertexCount": 126
+    },
+    {
+      "tag": "face",
+      "bbox": {
+        "minX": 496,
+        "minY": 0,
+        "maxX": 1279,
+        "maxY": 1279,
+        "W": 783,
+        "H": 1279,
+        "cx": 887.5,
+        "cy": 639.5,
+        "aspect": 0.6121970289288506
+      },
+      "vertexCount": 309
+    },
+    {
+      "tag": "ears-r",
+      "bbox": {
+        "minX": 531,
+        "minY": 421,
+        "maxX": 591,
+        "maxY": 496,
+        "W": 60,
+        "H": 75,
+        "cx": 561,
+        "cy": 458.5,
+        "aspect": 0.8
+      },
+      "vertexCount": 54
+    },
+    {
+      "tag": "ears-l",
+      "bbox": {
+        "minX": 743,
+        "minY": 340,
+        "maxX": 798,
+        "maxY": 440,
+        "W": 55,
+        "H": 100,
+        "cx": 770.5,
+        "cy": 390,
+        "aspect": 0.55
+      },
+      "vertexCount": 93
+    },
+    {
+      "tag": "earwear",
+      "bbox": {
+        "minX": 742,
+        "minY": 0,
+        "maxX": 1279,
+        "maxY": 1279,
+        "W": 537,
+        "H": 1279,
+        "cx": 1010.5,
+        "cy": 639.5,
+        "aspect": 0.41985926505082094
+      },
+      "vertexCount": 87
+    },
+    {
+      "tag": "topwear",
+      "bbox": {
+        "minX": 251,
+        "minY": 0,
+        "maxX": 1279,
+        "maxY": 1279,
+        "W": 1028,
+        "H": 1279,
+        "cx": 765,
+        "cy": 639.5,
+        "aspect": 0.8037529319781079
+      },
+      "vertexCount": 346
+    },
+    {
+      "tag": "neck",
+      "bbox": {
+        "minX": 602,
+        "minY": 1,
+        "maxX": 1279,
+        "maxY": 1279,
+        "W": 677,
+        "H": 1278,
+        "cx": 940.5,
+        "cy": 640,
+        "aspect": 0.5297339593114241
+      },
+      "vertexCount": 296
+    },
+    {
+      "tag": "back hair",
+      "bbox": {
+        "minX": 217,
+        "minY": 1,
+        "maxX": 1279,
+        "maxY": 1278.6666666666667,
+        "W": 1062,
+        "H": 1277.6666666666667,
+        "cx": 748,
+        "cy": 639.8333333333334,
+        "aspect": 0.8312027132794155
+      },
+      "vertexCount": 432
+    }
+  ],
+  "tagCoverage": {
+    "present": [
+      "back hair",
+      "ears-l",
+      "ears-r",
+      "earwear",
+      "eyebrow-l",
+      "eyebrow-r",
+      "eyelash-l",
+      "eyelash-r",
+      "eyewhite-l",
+      "eyewhite-r",
+      "face",
+      "front hair",
+      "handwear-l",
+      "handwear-r",
+      "irides-l",
+      "irides-r",
+      "mouth",
+      "neck",
+      "nose",
+      "topwear"
+    ],
+    "taglessCount": 0
+  },
+  "body": {
+    "coreTagsFound": [
+      "topwear"
+    ],
+    "coreMeshCount": 1,
+    "limbTagsFound": [],
+    "limbMeshCount": 0,
+    "warnings": [
+      "feetY at canvas edge (y=1279, canvasH=1280) — character may be truncated or alpha leaking to last row"
+    ],
+    "topwearBbox": {
+      "minX": 251,
+      "minY": 0,
+      "maxX": 1279,
+      "maxY": 1279,
+      "cx": 765,
+      "cy": 639.5
+    },
+    "bottomwearBbox": null,
+    "anchors": {
+      "shoulderY": 569,
+      "hipY": 1279,
+      "hipCandidates": {
+        "topwearMaxY": 1279,
+        "widestCoreY": 1279,
+        "spanMid": 924
+      },
+      "feetY": 1279,
+      "spineX_atShoulder": 742,
+      "spineX_atHip": 766.5,
+      "spineX_overall": 638.4
+    },
+    "widthStats": {
+      "maxCoreWidth": 1026,
+      "maxCoreWidthY": 1279,
+      "shoulderWidth": 23,
+      "hipWidth": 1026,
+      "feetSpreadWidth": 1026,
+      "coreHeight": 711,
+      "fullHeight": 711
+    },
+    "widthProfile": [
+      {
+        "t": 0,
+        "y": 569,
+        "coreWidth": 23,
+        "fullWidth": 23,
+        "spineX": 742,
+        "coreLeft": 731,
+        "coreRight": 753
+      },
+      {
+        "t": 0.05,
+        "y": 605,
+        "coreWidth": 242,
+        "fullWidth": 242,
+        "spineX": 741.5,
+        "coreLeft": 621,
+        "coreRight": 862
+      },
+      {
+        "t": 0.1,
+        "y": 640,
+        "coreWidth": 351,
+        "fullWidth": 351,
+        "spineX": 700,
+        "coreLeft": 525,
+        "coreRight": 875
+      },
+      {
+        "t": 0.15,
+        "y": 676,
+        "coreWidth": 372,
+        "fullWidth": 372,
+        "spineX": 693.5,
+        "coreLeft": 508,
+        "coreRight": 879
+      },
+      {
+        "t": 0.2,
+        "y": 711,
+        "coreWidth": 385,
+        "fullWidth": 385,
+        "spineX": 685,
+        "coreLeft": 493,
+        "coreRight": 877
+      },
+      {
+        "t": 0.25,
+        "y": 747,
+        "coreWidth": 422,
+        "fullWidth": 422,
+        "spineX": 658.5,
+        "coreLeft": 448,
+        "coreRight": 869
+      },
+      {
+        "t": 0.3,
+        "y": 782,
+        "coreWidth": 446,
+        "fullWidth": 446,
+        "spineX": 634.5,
+        "coreLeft": 412,
+        "coreRight": 857
+      },
+      {
+        "t": 0.35,
+        "y": 818,
+        "coreWidth": 447,
+        "fullWidth": 447,
+        "spineX": 620,
+        "coreLeft": 397,
+        "coreRight": 843
+      },
+      {
+        "t": 0.4,
+        "y": 853,
+        "coreWidth": 431,
+        "fullWidth": 431,
+        "spineX": 616,
+        "coreLeft": 401,
+        "coreRight": 831
+      },
+      {
+        "t": 0.45,
+        "y": 889,
+        "coreWidth": 411,
+        "fullWidth": 411,
+        "spineX": 607,
+        "coreLeft": 402,
+        "coreRight": 812
+      },
+      {
+        "t": 0.5,
+        "y": 924,
+        "coreWidth": 567,
+        "fullWidth": 567,
+        "spineX": 638,
+        "coreLeft": 355,
+        "coreRight": 921
+      },
+      {
+        "t": 0.55,
+        "y": 960,
+        "coreWidth": 566,
+        "fullWidth": 566,
+        "spineX": 629.5,
+        "coreLeft": 347,
+        "coreRight": 912
+      },
+      {
+        "t": 0.6,
+        "y": 995,
+        "coreWidth": 559,
+        "fullWidth": 559,
+        "spineX": 621,
+        "coreLeft": 342,
+        "coreRight": 900
+      },
+      {
+        "t": 0.65,
+        "y": 1031,
+        "coreWidth": 549,
+        "fullWidth": 549,
+        "spineX": 615,
+        "coreLeft": 341,
+        "coreRight": 889
+      },
+      {
+        "t": 0.7,
+        "y": 1066,
+        "coreWidth": 536,
+        "fullWidth": 536,
+        "spineX": 612.5,
+        "coreLeft": 345,
+        "coreRight": 880
+      },
+      {
+        "t": 0.75,
+        "y": 1102,
+        "coreWidth": 542,
+        "fullWidth": 542,
+        "spineX": 621.5,
+        "coreLeft": 351,
+        "coreRight": 892
+      },
+      {
+        "t": 0.8,
+        "y": 1137,
+        "coreWidth": 568,
+        "fullWidth": 568,
+        "spineX": 631.5,
+        "coreLeft": 348,
+        "coreRight": 915
+      },
+      {
+        "t": 0.85,
+        "y": 1173,
+        "coreWidth": 618,
+        "fullWidth": 618,
+        "spineX": 626.5,
+        "coreLeft": 318,
+        "coreRight": 935
+      },
+      {
+        "t": 0.9,
+        "y": 1208,
+        "coreWidth": 670,
+        "fullWidth": 670,
+        "spineX": 616.5,
+        "coreLeft": 282,
+        "coreRight": 951
+      },
+      {
+        "t": 0.95,
+        "y": 1244,
+        "coreWidth": 704,
+        "fullWidth": 704,
+        "spineX": 614.5,
+        "coreLeft": 263,
+        "coreRight": 966
+      },
+      {
+        "t": 1,
+        "y": 1279,
+        "coreWidth": 1026,
+        "fullWidth": 1026,
+        "spineX": 766.5,
+        "coreLeft": 254,
+        "coreRight": 1279
+      }
+    ]
+  },
+  "faceUnion": {
+    "rawMinX": 0,
+    "rawMinY": 0,
+    "rawMaxX": 1279,
+    "rawMaxY": 1279,
+    "padX": 127.9,
+    "padY": 127.9,
+    "paddedMinX": -127.9,
+    "paddedMinY": -127.9,
+    "paddedMaxX": 1406.9,
+    "paddedMaxY": 1406.9,
+    "W": 1534.8000000000002,
+    "H": 1534.8000000000002,
+    "aspect": 1
+  },
+  "facePivot": {
+    "cx": 887.5,
+    "cy": 1406.9,
+    "cy_chin_baseline": 1279,
+    "cy_measured_candidate": 1406.9,
+    "cy_delta_from_chin": 127.90000000000009,
+    "anchorSource": "chin_plus_face_height_offset_hood_case",
+    "faceMeshBbox": {
+      "minX": 496,
+      "minY": 0,
+      "maxX": 1279,
+      "maxY": 1279
+    },
+    "note": "D2 neck-base calibration: prefers measured topwear.minY (normal collar) or chin+10% face-height (hood case). Falls back to chin if candidate is within 15px of chin (e.g., waifu) so existing anime tuning is preserved."
+  },
+  "neckUnion": {
+    "rawMinX": 602,
+    "rawMinY": 1,
+    "rawMaxX": 1279,
+    "rawMaxY": 1279,
+    "padX": 67.7,
+    "padY": 127.80000000000001,
+    "paddedMinX": 534.3,
+    "paddedMinY": -126.80000000000001,
+    "paddedMaxX": 1346.7,
+    "paddedMaxY": 1406.8,
+    "W": 812.4000000000001,
+    "H": 1533.6
+  },
+  "neckWarp": {
+    "NECK_TILT_FRAC": 0.08,
+    "gridCols": 6,
+    "gridRows": 6,
+    "spanX": 0.8545134009411207,
+    "maxShiftX": 0.06836107207528966,
+    "parentDeformer": "Body X Warp",
+    "note": "top row shift at ParamAngleZ = +30 in 0..1 space"
+  },
+  "faceParallax": {
+    "algorithm": "depth-weighted-cylindrical + protected-regions",
+    "depthAmpScalar": 3,
+    "gridCols": 6,
+    "gridRows": 6,
+    "spanX_canvasPx": 1534.8000000000002,
+    "spanY_canvasPx": 1534.8000000000002,
+    "faceMeshCenter": {
+      "cx": 887.5,
+      "cy": 639.5
+    },
+    "fpRadius": {
+      "x": 391.5,
+      "y": 639.5
+    },
+    "constants": {
+      "FP_DEPTH_K": 0.8,
+      "FP_EDGE_DEPTH_K": 0.3,
+      "FP_MAX_ANGLE_X_DEG": 15,
+      "FP_MAX_ANGLE_Y_DEG": 8,
+      "FP_PROTECTION_STRENGTH": 1,
+      "FP_PROTECTION_FALLOFF_BUFFER": 0.12
+    },
+    "peakShifts_canvasPx": {
+      "angleX_plus30_center": 81.06212492610949,
+      "angleY_plus30_center": 71.20095845116948
+    },
+    "protectedRegions": [
+      {
+        "tag": "eye-l",
+        "protection": 1,
+        "centerUVZ": {
+          "u": -0.7113665389527459,
+          "v": -0.3745113369820172,
+          "z": 0.6346722007500812
+        },
+        "falloff": {
+          "u": 1.0087867177522352,
+          "v": 0.6430023455824864
+        }
+      },
+      {
+        "tag": "eye-r",
+        "protection": 1,
+        "centerUVZ": {
+          "u": -0.7113665389527459,
+          "v": -0.3745113369820172,
+          "z": 0.6346722007500812
+        },
+        "falloff": {
+          "u": 1.0087867177522352,
+          "v": 0.6430023455824864
+        }
+      },
+      {
+        "tag": "eyebrow-r",
+        "protection": 0.8,
+        "centerUVZ": {
+          "u": -0.7376410289824364,
+          "v": -0.41021337539986563,
+          "z": 0.6184114292191378
+        },
+        "falloff": {
+          "u": 1.0020854260275973,
+          "v": 0.6260649670551774
+        }
+      },
+      {
+        "tag": "eyebrow-l",
+        "protection": 0.8,
+        "centerUVZ": {
+          "u": -0.7376410289824364,
+          "v": -0.41021337539986563,
+          "z": 0.6184114292191378
+        },
+        "falloff": {
+          "u": 1.0020854260275973,
+          "v": 0.6260649670551774
+        }
+      },
+      {
+        "tag": "nose",
+        "protection": 0.3,
+        "centerUVZ": {
+          "u": -0.6334610472541508,
+          "v": 0,
+          "z": 0.6868872903093595
+        },
+        "falloff": {
+          "u": 2.5375223499361432,
+          "v": 1.6
+        }
+      },
+      {
+        "tag": "mouth",
+        "protection": 0.3,
+        "centerUVZ": {
+          "u": -0.6330541177302554,
+          "v": 0,
+          "z": 0.6870537701743673
+        },
+        "falloff": {
+          "u": 2.537115420412248,
+          "v": 1.6
+        }
+      },
+      {
+        "tag": "ears-r",
+        "protection": 0.9,
+        "centerUVZ": {
+          "u": -0.566411238825032,
+          "v": -0.336591086786552,
+          "z": 0.6765267068812526
+        },
+        "falloff": {
+          "u": 0.9774968071519797,
+          "v": 0.6684128225175919
+        }
+      },
+      {
+        "tag": "ears-l",
+        "protection": 0.9,
+        "centerUVZ": {
+          "u": -0.566411238825032,
+          "v": -0.336591086786552,
+          "z": 0.6765267068812526
+        },
+        "falloff": {
+          "u": 0.9774968071519797,
+          "v": 0.6684128225175919
+        }
+      }
+    ],
+    "note": "Grid point Z from ellipsoidal falloff + per-region protection blend. Protected regions (eyes, brows, mouth, nose) rigidly translate via their center-shift; skin/hair/ears get full depth parallax. FaceParallax grid in canvas-px offsets from facePivot."
+  },
+  "eyeClosureContexts": [
+    {
+      "sourceTag": "eyewhite-r",
+      "isEyewhite": true,
+      "meshBbox": {
+        "minY": 409,
+        "maxY": 444,
+        "H": 35
+      },
+      "yOffset_canvasPx": -5.25,
+      "parabolaFit": {
+        "a": -5.0026214513626375,
+        "b": -0.31637324094676034,
+        "c": 438.61184427792733,
+        "xMid": 558.5,
+        "xScale": 27.5
+      },
+      "curveSampleCount": 7,
+      "curvePoints_bodyX01": [
+        [
+          0.3881213394015712,
+          0.2790063495899926
+        ],
+        [
+          0.3968089875575316,
+          0.2813471324684097
+        ],
+        [
+          0.40549663571349187,
+          0.2827385841917622
+        ],
+        [
+          0.41418428386945233,
+          0.28318070476005003
+        ],
+        [
+          0.4228719320254129,
+          0.2826734941732732
+        ],
+        [
+          0.4315595801813733,
+          0.2812169524314317
+        ],
+        [
+          0.4402472283373336,
+          0.2788110795345257
+        ]
+      ]
+    },
+    {
+      "sourceTag": "eyewhite-l",
+      "isEyewhite": true,
+      "meshBbox": {
+        "minY": 360,
+        "maxY": 406,
+        "H": 46
+      },
+      "yOffset_canvasPx": -6.8999999999999995,
+      "parabolaFit": {
+        "a": -0.21459260503665128,
+        "b": -6.24761606327123,
+        "c": 400.5745536471004,
+        "xMid": 670,
+        "xScale": 32
+      },
+      "curveSampleCount": 7,
+      "curvePoints_bodyX01": [
+        [
+          0.5037002061085832,
+          0.24681193470580567
+        ],
+        [
+          0.513216599418644,
+          0.24504355020789897
+        ],
+        [
+          0.5227329927287044,
+          0.24323907955636134
+        ],
+        [
+          0.532249386038765,
+          0.241398522751193
+        ],
+        [
+          0.5417657793488259,
+          0.23952187979239364
+        ],
+        [
+          0.5512821726588863,
+          0.23760915067996347
+        ],
+        [
+          0.560798565968947,
+          0.2356603354139024
+        ]
+      ]
+    },
+    {
+      "sourceTag": "eyelash-r",
+      "isEyewhite": false,
+      "meshBbox": {
+        "minY": 393,
+        "maxY": 448,
+        "H": 55
+      },
+      "yOffset_canvasPx": -8.25,
+      "parabolaFit": {
+        "a": -8.976326769110068,
+        "b": 13.940359261671466,
+        "c": 437.5647843967736,
+        "xMid": 551.5,
+        "xScale": 36.5
+      },
+      "curveSampleCount": 7,
+      "curvePoints_bodyX01": [
+        [
+          0.3876727230825956,
+          0.2688676198525364
+        ],
+        [
+          0.3936113985705454,
+          0.2701545153960483
+        ],
+        [
+          0.3995500740584951,
+          0.2718932389452788
+        ],
+        [
+          0.40548874954644487,
+          0.2740837905002282
+        ],
+        [
+          0.41142742503439467,
+          0.2767261700608966
+        ],
+        [
+          0.41736610052234446,
+          0.2798203776272836
+        ],
+        [
+          0.42330477601029426,
+          0.2833664131993896
+        ]
+      ]
+    },
+    {
+      "sourceTag": "eyelash-l",
+      "isEyewhite": false,
+      "meshBbox": {
+        "minY": 352,
+        "maxY": 407,
+        "H": 55
+      },
+      "yOffset_canvasPx": -8.25,
+      "parabolaFit": {
+        "a": -16.06856598285724,
+        "b": -0.741200326916701,
+        "c": 401.93677277355476,
+        "xMid": 666.5,
+        "xScale": 45.5
+      },
+      "curveSampleCount": 7,
+      "curvePoints_bodyX01": [
+        [
+          0.5005064374702561,
+          0.23615743684658272
+        ],
+        [
+          0.5087179124726079,
+          0.23393077911421362
+        ],
+        [
+          0.5169293874749594,
+          0.23269924654896748
+        ],
+        [
+          0.5251408624773113,
+          0.23246283915084454
+        ],
+        [
+          0.5333523374796629,
+          0.23322155691984484
+        ],
+        [
+          0.5415638124820146,
+          0.2349753998559679
+        ],
+        [
+          0.5497752874843665,
+          0.23772436795921442
+        ]
+      ]
+    }
+  ],
+  "params": {},
+  "warnings": [],
+  "eyelashBand": {
+    "note": "Closure curve: parabola fit to eyewhite lower edge per side (X-uniform bins + least-squares). Parabola IS the closure target. Extrapolates naturally beyond eyewhite X range. All eye meshes blend Y to curve(vertexX); X stays. Per-mesh rwBox clamp + lash strip compression + union-bbox rwBox extension apply.",
+    "constants": {
+      "LASH_STRIP_FRAC": 0.06,
+      "BIN_COUNT": 6
+    },
+    "l": {
+      "parabola": {
+        "a": -21.07353083656537,
+        "b": -10.749021681649921,
+        "c": 403.8223051376705,
+        "xMid": 670,
+        "xScale": 32,
+        "sourceTag": "eyewhite",
+        "sampleSource": "eyewhite-png-alpha",
+        "xMin": 638,
+        "xMax": 702,
+        "sampleCount": 61
+      },
+      "sampledCurve": [
+        [
+          638,
+          393.49779598275506
+        ],
+        [
+          646,
+          400.03021030333997
+        ],
+        [
+          654,
+          403.9284332693541
+        ],
+        [
+          662,
+          405.1924648807977
+        ],
+        [
+          670,
+          403.8223051376705
+        ],
+        [
+          678,
+          399.81795403997273
+        ],
+        [
+          686,
+          393.17941158770424
+        ],
+        [
+          694,
+          383.90667778086504
+        ],
+        [
+          702,
+          371.99975261945525
+        ]
+      ],
+      "lashBbox": {
+        "minY": 352,
+        "maxY": 407,
+        "H": 55
+      }
+    },
+    "r": {
+      "parabola": {
+        "a": -15.022843801285239,
+        "b": -1.1222573209254594,
+        "c": 440.97457264957285,
+        "xMid": 558.5,
+        "xScale": 27.5,
+        "sourceTag": "eyewhite",
+        "sampleSource": "eyewhite-png-alpha",
+        "xMin": 531,
+        "xMax": 586,
+        "sampleCount": 52
+      },
+      "sampledCurve": [
+        [
+          531,
+          427.0739861692131
+        ],
+        [
+          537.875,
+          433.365916002044
+        ],
+        [
+          544.75,
+          437.77999035971425
+        ],
+        [
+          551.625,
+          440.31620924222386
+        ],
+        [
+          558.5,
+          440.97457264957285
+        ],
+        [
+          565.375,
+          439.75508058176115
+        ],
+        [
+          572.25,
+          436.6577330387888
+        ],
+        [
+          579.125,
+          431.6825300206558
+        ],
+        [
+          586,
+          424.82947152736216
+        ]
+      ],
+      "lashBbox": {
+        "minY": 393,
+        "maxY": 448,
+        "H": 55
+      }
+    }
+  },
+  "bodyFracSource": "measured-feet-plus-shoulder-feet-midbody",
+  "bodyFrac": {
+    "HIP_FRAC": 0.6853661714881417,
+    "FEET_FRAC": 0.75
+  },
+  "spineCfShifts": {
+    "source": "measured-widthProfile",
+    "perRow": [
+      0,
+      0,
+      0,
+      -0.0061,
+      -0.0121,
+      0.0827
+    ],
+    "note": "cf shift per grid row: 0 = bow centered on bbox, positive = spine drifts right of bbox, negative = left"
+  },
+  "perVertexClosure": [
+    {
+      "tag": "irides-r",
+      "closureSide": "r",
+      "isEyelash": false,
+      "rwBox": {
+        "gridMinX": 507.7,
+        "gridMinY": 387.5,
+        "gridW": 87.59999999999997,
+        "gridH": 66
+      },
+      "dfOrigin": {
+        "x": 640,
+        "y": 576
+      },
+      "rigWarpDebugInfo": null,
+      "totalVertexCount": 24,
+      "samples": [
+        {
+          "vertexIndex": 0,
+          "restCanvasXY": [
+            556,
+            405
+          ],
+          "closedCanvasXY": [
+            556,
+            440.9524403084893
+          ],
+          "restWarpLocalXY": [
+            0.551369863013699,
+            0.26515151515151514
+          ],
+          "closedWarpLocalXY": [
+            0.551369863013699,
+            0.809885459219535
+          ]
+        },
+        {
+          "vertexIndex": 12,
+          "restCanvasXY": [
+            549,
+            411.1683705244582
+          ],
+          "closedCanvasXY": [
+            549,
+            439.56945274481353
+          ],
+          "restWarpLocalXY": [
+            0.47146118721461217,
+            0.3586116746130034
+          ],
+          "closedWarpLocalXY": [
+            0.47146118721461217,
+            0.7889311021941444
+          ]
+        },
+        {
+          "vertexIndex": 23,
+          "restCanvasXY": [
+            575.4131780149751,
+            431.6571845699794
+          ],
+          "closedCanvasXY": [
+            575.4131780149751,
+            434.60188604280916
+          ],
+          "restWarpLocalXY": [
+            0.7729814841892136,
+            0.6690482510602939
+          ],
+          "closedWarpLocalXY": [
+            0.7729814841892136,
+            0.713664940042563
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "irides-l",
+      "closureSide": "l",
+      "isEyelash": false,
+      "rwBox": {
+        "gridMinX": 611.9,
+        "gridMinY": 346.5,
+        "gridW": 109.20000000000005,
+        "gridH": 66
+      },
+      "dfOrigin": {
+        "x": 640,
+        "y": 576
+      },
+      "rigWarpDebugInfo": null,
+      "totalVertexCount": 29,
+      "samples": [
+        {
+          "vertexIndex": 0,
+          "restCanvasXY": [
+            667,
+            364
+          ],
+          "closedCanvasXY": [
+            667,
+            404.64480934070696
+          ],
+          "restWarpLocalXY": [
+            0.5045787545787546,
+            0.26515151515151514
+          ],
+          "closedWarpLocalXY": [
+            0.5045787545787546,
+            0.8809819597076811
+          ]
+        },
+        {
+          "vertexIndex": 14,
+          "restCanvasXY": [
+            659.0437902832996,
+            367
+          ],
+          "closedCanvasXY": [
+            659.0437902832996,
+            405.03222452563836
+          ],
+          "restWarpLocalXY": [
+            0.4317196912390072,
+            0.3106060606060606
+          ],
+          "closedWarpLocalXY": [
+            0.4317196912390072,
+            0.8868518867520963
+          ]
+        },
+        {
+          "vertexIndex": 28,
+          "restCanvasXY": [
+            679.8139249741307,
+            390.3847047494874
+          ],
+          "closedCanvasXY": [
+            679.8139249741307,
+            398.54365227593286
+          ],
+          "restWarpLocalXY": [
+            0.6219223898729919,
+            0.6649197689316274
+          ],
+          "closedWarpLocalXY": [
+            0.6219223898729919,
+            0.7885401859989827
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "eyewhite-r",
+      "closureSide": "r",
+      "isEyelash": false,
+      "rwBox": {
+        "gridMinX": 507.7,
+        "gridMinY": 387.5,
+        "gridW": 87.59999999999997,
+        "gridH": 66
+      },
+      "dfOrigin": {
+        "x": 640,
+        "y": 1280
+      },
+      "rigWarpDebugInfo": null,
+      "totalVertexCount": 30,
+      "samples": [
+        {
+          "vertexIndex": 0,
+          "restCanvasXY": [
+            550,
+            409
+          ],
+          "closedCanvasXY": [
+            550,
+            439.88621190130635
+          ],
+          "restWarpLocalXY": [
+            0.48287671232876744,
+            0.32575757575757575
+          ],
+          "closedWarpLocalXY": [
+            0.48287671232876744,
+            0.7937304833531266
+          ]
+        },
+        {
+          "vertexIndex": 15,
+          "restCanvasXY": [
+            542.0902281758686,
+            412.90977182413144
+          ],
+          "closedCanvasXY": [
+            542.0902281758686,
+            436.2950077807381
+          ],
+          "restWarpLocalXY": [
+            0.39258251342315736,
+            0.3849965427898703
+          ],
+          "closedWarpLocalXY": [
+            0.39258251342315736,
+            0.7393182997081531
+          ]
+        },
+        {
+          "vertexIndex": 29,
+          "restCanvasXY": [
+            568.0712194028004,
+            432.6037492039543
+          ],
+          "closedCanvasXY": [
+            568.0712194028004,
+            438.7641871989478
+          ],
+          "restWarpLocalXY": [
+            0.6891691712648446,
+            0.683390139453853
+          ],
+          "closedWarpLocalXY": [
+            0.6891691712648446,
+            0.7767301090749668
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "eyewhite-l",
+      "closureSide": "l",
+      "isEyelash": false,
+      "rwBox": {
+        "gridMinX": 611.9,
+        "gridMinY": 346.5,
+        "gridW": 109.20000000000005,
+        "gridH": 66
+      },
+      "dfOrigin": {
+        "x": 640,
+        "y": 1280
+      },
+      "rigWarpDebugInfo": null,
+      "totalVertexCount": 42,
+      "samples": [
+        {
+          "vertexIndex": 0,
+          "restCanvasXY": [
+            685,
+            360
+          ],
+          "closedCanvasXY": [
+            685,
+            394.1532867339409
+          ],
+          "restWarpLocalXY": [
+            0.6694139194139194,
+            0.20454545454545456
+          ],
+          "closedWarpLocalXY": [
+            0.6694139194139194,
+            0.7220194959688013
+          ]
+        },
+        {
+          "vertexIndex": 21,
+          "restCanvasXY": [
+            678.3626408704496,
+            374.0177813753413
+          ],
+          "closedCanvasXY": [
+            678.3626408704496,
+            399.57402588574416
+          ],
+          "restWarpLocalXY": [
+            0.6086322424033844,
+            0.4169360814445654
+          ],
+          "closedWarpLocalXY": [
+            0.6086322424033844,
+            0.80415190735976
+          ]
+        },
+        {
+          "vertexIndex": 41,
+          "restCanvasXY": [
+            667.4028036898916,
+            396.4856641958994
+          ],
+          "closedCanvasXY": [
+            667.4028036898916,
+            404.555903011901
+          ],
+          "restWarpLocalXY": [
+            0.5082674330576152,
+            0.7573585484227182
+          ],
+          "closedWarpLocalXY": [
+            0.5082674330576152,
+            0.8796348941197125
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "eyelash-r",
+      "closureSide": "r",
+      "isEyelash": true,
+      "rwBox": {
+        "gridMinX": 507.7,
+        "gridMinY": 387.5,
+        "gridW": 87.59999999999997,
+        "gridH": 66
+      },
+      "dfOrigin": {
+        "x": 640,
+        "y": 1280
+      },
+      "rigWarpDebugInfo": null,
+      "totalVertexCount": 44,
+      "samples": [
+        {
+          "vertexIndex": 0,
+          "restCanvasXY": [
+            540,
+            393
+          ],
+          "closedCanvasXY": [
+            540,
+            431.63077776829147
+          ],
+          "restWarpLocalXY": [
+            0.3687214611872149,
+            0.08333333333333333
+          ],
+          "closedWarpLocalXY": [
+            0.3687214611872149,
+            0.6686481480044162
+          ]
+        },
+        {
+          "vertexIndex": 22,
+          "restCanvasXY": [
+            572.8989847455448,
+            428.1010152544552
+          ],
+          "closedCanvasXY": [
+            572.8989847455448,
+            437.1804727088901
+          ],
+          "restWarpLocalXY": [
+            0.7442806477801921,
+            0.6151668977947758
+          ],
+          "closedWarpLocalXY": [
+            0.7442806477801921,
+            0.752734434983183
+          ]
+        },
+        {
+          "vertexIndex": 43,
+          "restCanvasXY": [
+            537.9567663122879,
+            424.44869735387346
+          ],
+          "closedCanvasXY": [
+            537.9567663122879,
+            433.9032916353649
+          ],
+          "restWarpLocalXY": [
+            0.345396875711049,
+            0.5598287477859615
+          ],
+          "closedWarpLocalXY": [
+            0.345396875711049,
+            0.7030801762934075
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "eyelash-l",
+      "closureSide": "l",
+      "isEyelash": true,
+      "rwBox": {
+        "gridMinX": 611.9,
+        "gridMinY": 346.5,
+        "gridW": 109.20000000000005,
+        "gridH": 66
+      },
+      "dfOrigin": {
+        "x": 640,
+        "y": 1280
+      },
+      "rigWarpDebugInfo": null,
+      "totalVertexCount": 58,
+      "samples": [
+        {
+          "vertexIndex": 0,
+          "restCanvasXY": [
+            667,
+            352
+          ],
+          "closedCanvasXY": [
+            667,
+            401.34480934070695
+          ],
+          "restWarpLocalXY": [
+            0.5045787545787546,
+            0.08333333333333333
+          ],
+          "closedWarpLocalXY": [
+            0.5045787545787546,
+            0.830981959707681
+          ]
+        },
+        {
+          "vertexIndex": 29,
+          "restCanvasXY": [
+            677.7032012105009,
+            359.9058741256373
+          ],
+          "closedCanvasXY": [
+            677.7032012105009,
+            397.6622709563254
+          ],
+          "restWarpLocalXY": [
+            0.6025934176785794,
+            0.20311930493389843
+          ],
+          "closedWarpLocalXY": [
+            0.6025934176785794,
+            0.775185923580688
+          ]
+        },
+        {
+          "vertexIndex": 57,
+          "restCanvasXY": [
+            688.7537108498082,
+            394.648829249679
+          ],
+          "closedCanvasXY": [
+            688.7537108498082,
+            392.102776535701
+          ],
+          "restWarpLocalXY": [
+            0.703788560895679,
+            0.7295277159042275
+          ],
+          "closedWarpLocalXY": [
+            0.703788560895679,
+            0.6909511596318337
+          ]
+        }
+      ]
+    }
+  ],
+  "physics": {
+    "emittedCount": 5,
+    "emittedIds": [
+      "PhysicsSetting1",
+      "PhysicsSetting2",
+      "PhysicsSetting4",
+      "PhysicsSetting6",
+      "PhysicsSetting_ArmSnake"
+    ],
+    "skipped": [
+      {
+        "id": "PhysicsSetting3",
+        "reason": "no mesh with tag 'bottomwear'"
+      },
+      {
+        "id": "PhysicsSetting5",
+        "reason": "no mesh with tag 'legwear'"
+      }
+    ]
+  }
+}

@@ -19,7 +19,14 @@ function renderDay(d){
   week[d].forEach(([name,meta])=>{
     const row=document.createElement("div"); row.className="exrow";
     row.innerHTML=`<div><div class="exname">${name}</div><div class="exmeta">${meta}</div></div><button class="check" aria-label="Mark done"></button>`;
-    row.querySelector(".check").addEventListener("click",()=>row.classList.toggle("done"));
+    row.querySelector(".check").addEventListener("click",()=>{
+      row.classList.toggle("done");
+      if(row.classList.contains("done")){
+        if(window.VYORASfx) VYORASfx.success();
+        if(window.VYORAEmotion) VYORAEmotion.set("celebrating", 2200);
+        if(typeof triggerWave==="function") triggerWave("orbWave");
+      }
+    });
     exList.appendChild(row);
   });
 }

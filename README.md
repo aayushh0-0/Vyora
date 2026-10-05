@@ -74,3 +74,26 @@ Voice input needs HTTPS or `localhost` and a Chromium-based browser with mic per
 ## License / notes
 
 Prototype for founder / build-team kickoff. Not a medical device — all health guidance is general wellness only.
+
+
+## Live2D character (permanent VYORA avatar)
+
+Center dashboard character is driven by the Live2D pipeline under `js/live2d/` and `assets/live2d/`.
+
+**Important:** The file you provided was `model.cmo3` (Cubism **Editor project**). The browser cannot load `.cmo3`. You must export **Live2D Runtime** from Stretchy Studio:
+
+1. Stretchy Studio → Export → **Live2D Runtime (.moc3)**
+2. Unzip into `assets/live2d/vyora/`
+3. Refresh the site
+
+Source `.cmo3`, rig log, extracted `main.xml`, and layer PNGs are kept under `assets/live2d/source/` for Cubism Editor / reference.
+
+### Character API
+
+```js
+VYORACharacter.setCharacterState("idle" | "listening" | "thinking" | "speaking" | "happy" | "concerned" | "celebrating")
+VYORACharacter.setMouthAmplitude(0..1)  // from real voice only
+VYORACharacter.setCursorTracking(true)
+```
+
+See `assets/live2d/README.md` for full asset layout.

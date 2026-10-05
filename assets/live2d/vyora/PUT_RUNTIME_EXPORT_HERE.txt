@@ -1,0 +1,1 @@
+Drop Stretchy Studio Live2D Runtime (.moc3 package) files here. See ../README.md

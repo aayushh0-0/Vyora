@@ -78,7 +78,8 @@ label{font-size:12.5px;color:var(--muted);display:block;margin-bottom:4px;}
 
 /* Copilot character — animated AI avatar with face + gestures */
 .orb-wrap{display:flex;gap:24px;align-items:center;margin-bottom:20px;flex-wrap:wrap;}
-.orb{width:136px;height:136px;border-radius:50%;position:relative;flex:none;
+.orb-hero{width:min(280px,62vw);height:min(280px,62vw);}
+.orb{width:152px;height:152px;border-radius:50%;position:relative;flex:none;
   box-shadow:0 0 0 1px rgba(255,255,255,.07), 0 0 30px rgba(255,255,255,.06);
   --gaze-x:0px; --gaze-y:0px; --gaze-rot:0deg;
   --pupil-x:0px; --pupil-y:0px;
@@ -107,22 +108,18 @@ label{font-size:12.5px;color:var(--muted);display:block;margin-bottom:4px;}
 @keyframes sway{0%,100%{transform:translate(var(--body-x),var(--body-y)) rotate(calc(var(--body-rot) - 2deg));}
   50%{transform:translate(var(--body-x),calc(var(--body-y) - 3px)) rotate(calc(var(--body-rot) + 2deg));}}
 .orb-face{width:100%;height:100%;border-radius:50%;overflow:hidden;background:#0c0c0d;
-  transform:translate(var(--gaze-x),var(--gaze-y)) rotate(var(--gaze-rot));
-  transition:transform .1s ease-out;will-change:transform;}
-.orb-face svg{width:100%;height:100%;display:block;}
-.orb .eye{transform-box:fill-box;transform-origin:center;animation:blink 4.4s ease-in-out infinite;}
-.orb .eye.r{animation-delay:.06s;}
-.orb.listen .eye{transform:scaleY(1.12);}
-.orb.think .eye{transform:scaleY(.65);}
-@keyframes blink{0%,90%,100%{transform:scaleY(1);}95%{transform:scaleY(.12);}}
-.orb .pupil{transform-box:fill-box;transform-origin:center;
-  transform:translate(var(--pupil-x),var(--pupil-y));
-  transition:transform .08s ease-out;}
-.orb .brow{transform-box:fill-box;transform-origin:center;transition:transform .2s ease;}
-.orb.listen .brow{transform:translateY(-2px);}
-.orb .mouth{transform-box:fill-box;transform-origin:center;transition:transform .12s ease;}
-.orb.talk .mouth{animation:talkmouth .36s ease-in-out infinite;}
-@keyframes talkmouth{0%,100%{transform:scaleY(1) scaleX(1);}35%{transform:scaleY(2.1) scaleX(.85);}70%{transform:scaleY(1.4) scaleX(.95);}}
+  position:relative;}
+.orb-face.vyora-character-host{
+  transform:none !important;
+  display:block !important;
+  background:radial-gradient(circle at 50% 38%, rgba(55,58,70,.45), rgba(8,8,10,.95) 68%);}
+.avatar-sprite{width:100%;height:100%;object-fit:cover;object-position:center top;
+  display:block;user-select:none;pointer-events:none;
+  transition:opacity .15s ease;}
+.orb.talk .avatar-sprite{animation:talkbob .4s ease-in-out infinite;}
+@keyframes talkbob{0%,100%{transform:translateY(0);}50%{transform:translateY(2px) scale(1.01);}}
+.orb.listen .avatar-sprite{filter:brightness(1.08);}
+.orb.think .avatar-sprite{filter:brightness(.92) saturate(.9);}
 .wave{position:absolute;top:-4px;right:-6px;font-size:22px;transform-origin:70% 70%;opacity:0;}
 .wave.show{animation:wavehi 1.4s ease-in-out;}
 @keyframes wavehi{0%{opacity:0;transform:rotate(0deg);}10%{opacity:1;}20%,40%,60%{transform:rotate(18deg);}30%,50%,70%{transform:rotate(-10deg);}85%{opacity:1;}100%{opacity:0;transform:rotate(0deg);}}
@@ -134,7 +131,7 @@ label{font-size:12.5px;color:var(--muted);display:block;margin-bottom:4px;}
 .eq i:nth-child(3){animation-delay:.28s;} .eq i:nth-child(4){animation-delay:.08s;} .eq i:nth-child(5){animation-delay:.21s;}
 @keyframes eqbar{0%,100%{height:4px;}50%{height:15px;}}
 .orb-status{font-size:12px;color:var(--muted);margin:0;letter-spacing:.2px;}
-@media (prefers-reduced-motion: reduce){.orb-inner,.orb.talk::before,.orb.talk::after,.orb.listen .orb-inner,.orb.think .orb-inner,.orb.talk .mouth,.wave.show,.eq i{animation:none!important;}.orb-face,.orb .pupil{transition:none;}}
+@media (prefers-reduced-motion: reduce){.orb-inner,.orb.talk::before,.orb.talk::after,.orb.listen .orb-inner,.orb.think .orb-inner,.orb.talk .mouth,.wave.show,.eq i{animation:none!important;}.orb-face,.avatar-sprite{transition:none;}}
 
 .chat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
   display:flex;flex-direction:column;height:360px;overflow:hidden;}
@@ -210,4 +207,152 @@ label{font-size:12.5px;color:var(--muted);display:block;margin-bottom:4px;}
   .mobile-bar button.active{color:var(--text);background:var(--surface2);}
   .stage{padding:24px 18px 90px;}
   .grid.cols-3{grid-template-columns:1fr 1fr;}
+}
+
+/* —— VYORA center character —— */
+.orb-live2d, .orb-hero{
+  width:min(300px,64vw) !important;
+  height:min(300px,64vw) !important;
+}
+.orb-live2d .orb-inner{ width:100%; height:100%; }
+.orb-face.vyora-character-host{
+  transform:none !important;
+  display:block !important;
+  width:100%; height:100%;
+  border-radius:50%;
+  overflow:hidden;
+  position:relative;
+  background:radial-gradient(circle at 50% 36%, rgba(55,58,70,.4), rgba(6,6,8,.96) 70%);
+}
+.vyora-char-stage{
+  position:absolute;
+  left:50%;
+  top:48%;
+  width:135%;
+  height:135%;
+  transform:translate(-50%, -50%);
+  transform-origin:50% 36%;
+  will-change:transform;
+}
+.vyora-character-img,
+.vyora-iris{
+  position:absolute;
+  left:0; top:0;
+  width:100%;
+  height:100%;
+  object-fit:fill;
+  pointer-events:none;
+  user-select:none;
+  -webkit-user-drag:none;
+  display:block;
+}
+.vyora-character-img{ z-index:1; }
+.vyora-iris{ z-index:2; transition: none; will-change:transform; }
+.vyora-live2d-status{ display:none !important; }
+.l2d-mini-placeholder{
+  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  font-family:'Space Grotesk',sans-serif;font-size:13px;letter-spacing:2px;color:var(--muted);
+  background:radial-gradient(circle at 50% 40%, #1a1b1f, #0c0c0d);
+}
+.l2d-mini-placeholder.ovula{ color:#d9d2d5; }
+
+/* —— Experience layer —— */
+body[data-ambient="workout"] .orb-hero .vyora-character-host{
+  background:radial-gradient(circle at 50% 36%, rgba(70,75,95,.5), rgba(8,8,12,.96) 70%);
+  box-shadow:0 0 40px rgba(100,120,255,.12);
+}
+body[data-ambient="ovula"] .orb-hero .vyora-character-host,
+body[data-section="ovula"] .orb#orbO .orb-face{
+  background:radial-gradient(circle at 50% 36%, rgba(90,60,80,.4), rgba(12,8,12,.96) 70%);
+  box-shadow:0 0 36px rgba(220,140,180,.12);
+}
+body[data-ambient="diet"] .orb-hero .vyora-character-host{
+  background:radial-gradient(circle at 50% 36%, rgba(50,80,60,.4), rgba(8,10,8,.96) 70%);
+}
+body[data-char-state="celebrating"] .orb-hero{
+  filter:brightness(1.08);
+}
+body[data-char-state="concerned"] .orb-hero{
+  filter:saturate(.85) brightness(.95);
+}
+body.form-check .orb-hero::after{
+  content:"";
+  position:absolute; inset:-6px;
+  border-radius:50%;
+  border:2px solid rgba(120,180,255,.45);
+  animation:formPulse 1.4s ease-out infinite;
+  pointer-events:none;
+}
+@keyframes formPulse{
+  0%{transform:scale(1);opacity:.7}
+  100%{transform:scale(1.12);opacity:0}
+}
+.orb-hero{ position:relative; }
+.mic.pulse-hint{ animation:micPulse .6s ease-in-out 3; box-shadow:0 0 0 0 rgba(237,237,239,.5); }
+@keyframes micPulse{
+  0%,100%{ box-shadow:0 0 0 0 rgba(237,237,239,.35); }
+  50%{ box-shadow:0 0 0 10px rgba(237,237,239,0); }
+}
+.exrow.done{ opacity:.55; }
+.exrow.done .exname{ text-decoration:line-through; }
+.exrow .log-set{ margin-left:auto; }
+.check{ width:28px;height:28px;border-radius:50%;border:1px solid rgba(255,255,255,.2);
+  background:transparent;cursor:pointer;flex:none; }
+.exrow.done .check{ background:#EDEDEF; border-color:#EDEDEF; }
+body[data-hover-node="ovula"] .deck-core .deck-tag{ color:#f0c4d4; }
+
+@media (prefers-reduced-motion: reduce){
+  body.form-check .orb-hero::after{ animation:none; display:none; }
+  .mic.pulse-hint{ animation:none; }
+  .vyora-char-stage, .vyora-iris{ transition:none !important; }
+}
+
+/* Eyelids for blink */
+.vyora-lid{
+  position:absolute;
+  z-index:4;
+  pointer-events:none;
+  border-radius:50%;
+  background:linear-gradient(180deg, #c4a894 0%, #b08a74 40%, #a07a68 100%);
+  transform:scaleY(0);
+  transform-origin:50% 0%;
+  opacity:0;
+  will-change:transform, opacity;
+  box-shadow:inset 0 -1px 2px rgba(0,0,0,.12);
+}
+
+/* Soft blue cursor glow — only reads well on dark background */
+.vyora-cursor-glow{
+  position:fixed;
+  left:0; top:0;
+  width:140px;
+  height:140px;
+  margin:0;
+  border-radius:50%;
+  pointer-events:none;
+  z-index:99999;
+  opacity:0;
+  will-change:transform, opacity;
+  transform:translate(-50%, -50%);
+  /* Core ring + outer fade with distance */
+  background:
+    radial-gradient(circle at center,
+      rgba(120, 190, 255, 0.22) 0%,
+      rgba(100, 170, 255, 0.14) 18%,
+      rgba(80, 150, 255, 0.08) 35%,
+      rgba(60, 130, 255, 0.03) 55%,
+      transparent 70%);
+  box-shadow:
+    0 0 0 1px rgba(140, 200, 255, 0.35),
+    0 0 18px 4px rgba(100, 180, 255, 0.18),
+    0 0 40px 12px rgba(80, 160, 255, 0.08);
+  mix-blend-mode:screen;
+  transition:opacity .15s ease;
+}
+@media (prefers-reduced-motion: reduce){
+  .vyora-cursor-glow{ display:none !important; }
+}
+@media (pointer: coarse){
+  /* Less useful on pure touch; keep subtle if any pointermove fires */
+  .vyora-cursor-glow{ width:100px; height:100px; opacity:0.7; }
 }
