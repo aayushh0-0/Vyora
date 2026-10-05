@@ -57,7 +57,7 @@ function wireChat(inputId, sendId, logId, orbId, replyFn){
   document.getElementById(sendId).addEventListener("click",send);
   input.addEventListener("keydown",e=>{if(e.key==="Enter")send();});
 }
-wireChat("vyoraInput","vyoraSend","vyoraLog","orb",vyoraReply);
+wireChat("vyoraInput","vyoraSend","vyoraLog","orbChat",vyoraReply);
 
 function wireMic(btnId, inputId, orbId){
   const btn=document.getElementById(btnId), input=document.getElementById(inputId);
@@ -74,7 +74,7 @@ function wireMic(btnId, inputId, orbId){
   rec.onend=()=>{ on=false; btn.classList.remove("on"); orb.classList.remove("listen"); if(status) status.textContent="Ready"; };
   rec.onerror=()=>{ on=false; btn.classList.remove("on"); orb.classList.remove("listen"); if(status) status.textContent="Ready"; };
 }
-wireMic("vyoraMic","vyoraInput","orb");
+wireMic("vyoraMic","vyoraInput","orbChat");
 wireMic("ovulaMic","ovulaInput","orbO");
 
 function triggerWave(id){

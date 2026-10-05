@@ -40,6 +40,7 @@
         </div>
         <div class="deck-core">
           <div class="orb orb-hero" id="orb">
+            <div class="orb-inner">
             <div class="orb-face"><svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
               <path d="M80,8C40,8 18,42 20,92c1,34 10,58 20,74v-64c0-48 16-72 40-72s40,24 40,72v64c10-16 19-40 20-74C142,42 120,8 80,8Z" fill="#1a181c"/>
               <path d="M10,200 Q80,148 150,200 L150,225 L10,225 Z" fill="var(--accent)"/>
@@ -49,14 +50,15 @@
               <path d="M36,80C42,50 60,38 80,38S118,50 124,80C108,60 94,55 80,57S52,60 36,80Z" fill="#221f26"/>
               <path class="brow l" d="M50,80Q58,74 68,78" stroke="#2b2730" stroke-width="3" fill="none" stroke-linecap="round"/>
               <path class="brow r" d="M92,78Q102,74 110,80" stroke="#2b2730" stroke-width="3" fill="none" stroke-linecap="round"/>
-              <g class="eye l"><path d="M50,96Q60,87 70,96Q60,105 50,96Z" fill="#fff"/><circle cx="60" cy="96" r="5.6" fill="#4a3222"/><circle cx="61.6" cy="93.8" r="1.7" fill="#fff"/><path d="M50,96Q60,86 70,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
-              <g class="eye r"><path d="M90,96Q100,87 110,96Q100,105 90,96Z" fill="#fff"/><circle cx="100" cy="96" r="5.6" fill="#4a3222"/><circle cx="101.6" cy="93.8" r="1.7" fill="#fff"/><path d="M90,96Q100,86 110,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
+              <g class="eye l"><path d="M50,96Q60,87 70,96Q60,105 50,96Z" fill="#fff"/><g class="pupil"><circle cx="60" cy="96" r="5.6" fill="#4a3222"/><circle cx="61.6" cy="93.8" r="1.7" fill="#fff"/></g><path d="M50,96Q60,86 70,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
+              <g class="eye r"><path d="M90,96Q100,87 110,96Q100,105 90,96Z" fill="#fff"/><g class="pupil"><circle cx="100" cy="96" r="5.6" fill="#4a3222"/><circle cx="101.6" cy="93.8" r="1.7" fill="#fff"/></g><path d="M90,96Q100,86 110,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
               <path d="M80,96Q76,110 80,115Q84,112 82,109" stroke="#c99a78" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".5"/>
               <ellipse cx="52" cy="118" rx="8" ry="5" fill="#e39a8a" opacity=".3"/>
               <ellipse cx="108" cy="118" rx="8" ry="5" fill="#e39a8a" opacity=".3"/>
               <path class="mouth" d="M64,132Q80,137 96,132Q80,142 64,132Z" fill="#c76c81"/>
             </svg></div>
             <div class="wave" id="orbWave">👋</div>
+            </div>
           </div>
           <p class="deck-tag">VYORA</p>
           <p class="deck-sub">Your AI Fitness Copilot</p>
@@ -132,7 +134,8 @@
       <div class="card">
         <div class="orb-wrap">
           <div>
-            <div class="orb" id="orb">
+            <div class="orb" id="orbChat">
+              <div class="orb-inner">
               <div class="orb-face"><svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
                 <path d="M80,8C40,8 18,42 20,92c1,34 10,58 20,74v-64c0-48 16-72 40-72s40,24 40,72v64c10-16 19-40 20-74C142,42 120,8 80,8Z" fill="#1a181c"/>
                 <path d="M10,200 Q80,148 150,200 L150,225 L10,225 Z" fill="var(--accent)"/>
@@ -142,16 +145,17 @@
                 <path d="M36,80C42,50 60,38 80,38S118,50 124,80C108,60 94,55 80,57S52,60 36,80Z" fill="#221f26"/>
                 <path class="brow l" d="M50,80Q58,74 68,78" stroke="#2b2730" stroke-width="3" fill="none" stroke-linecap="round"/>
                 <path class="brow r" d="M92,78Q102,74 110,80" stroke="#2b2730" stroke-width="3" fill="none" stroke-linecap="round"/>
-                <g class="eye l"><path d="M50,96Q60,87 70,96Q60,105 50,96Z" fill="#fff"/><circle cx="60" cy="96" r="5.6" fill="#4a3222"/><circle cx="61.6" cy="93.8" r="1.7" fill="#fff"/><path d="M50,96Q60,86 70,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
-                <g class="eye r"><path d="M90,96Q100,87 110,96Q100,105 90,96Z" fill="#fff"/><circle cx="100" cy="96" r="5.6" fill="#4a3222"/><circle cx="101.6" cy="93.8" r="1.7" fill="#fff"/><path d="M90,96Q100,86 110,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
+                <g class="eye l"><path d="M50,96Q60,87 70,96Q60,105 50,96Z" fill="#fff"/><g class="pupil"><circle cx="60" cy="96" r="5.6" fill="#4a3222"/><circle cx="61.6" cy="93.8" r="1.7" fill="#fff"/></g><path d="M50,96Q60,86 70,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
+                <g class="eye r"><path d="M90,96Q100,87 110,96Q100,105 90,96Z" fill="#fff"/><g class="pupil"><circle cx="100" cy="96" r="5.6" fill="#4a3222"/><circle cx="101.6" cy="93.8" r="1.7" fill="#fff"/></g><path d="M90,96Q100,86 110,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
                 <path d="M80,96Q76,110 80,115Q84,112 82,109" stroke="#c99a78" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".5"/>
                 <ellipse cx="52" cy="118" rx="8" ry="5" fill="#e39a8a" opacity=".3"/>
                 <ellipse cx="108" cy="118" rx="8" ry="5" fill="#e39a8a" opacity=".3"/>
                 <path class="mouth" d="M64,132Q80,137 96,132Q80,142 64,132Z" fill="#c76c81"/>
               </svg></div>
-              <div class="wave" id="orbWave">👋</div>
+              <div class="wave" id="orbChatWave">👋</div>
+              </div>
             </div>
-            <div class="voicebar"><div class="eq"><i></i><i></i><i></i><i></i><i></i></div><p class="orb-status" id="orbStatus">Ready</p></div>
+            <div class="voicebar"><div class="eq"><i></i><i></i><i></i><i></i><i></i></div><p class="orb-status" id="orbChatStatus">Ready</p></div>
           </div>
           <div>
             <h3 style="margin:0 0 4px;">Talk to VYORA</h3>
@@ -276,6 +280,7 @@
         <div class="orb-wrap">
           <div>
             <div class="orb" id="orbO">
+              <div class="orb-inner">
               <div class="orb-face"><svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
                 <path d="M80,8C40,8 18,42 20,92c1,34 10,58 20,74v-64c0-48 16-72 40-72s40,24 40,72v64c10-16 19-40 20-74C142,42 120,8 80,8Z" fill="#1a181c"/>
                 <path d="M10,200 Q80,148 150,200 L150,225 L10,225 Z" fill="var(--accent)"/>
@@ -285,14 +290,15 @@
                 <path d="M36,80C42,50 60,38 80,38S118,50 124,80C108,60 94,55 80,57S52,60 36,80Z" fill="#221f26"/>
                 <path class="brow l" d="M50,80Q58,74 68,78" stroke="#2b2730" stroke-width="3" fill="none" stroke-linecap="round"/>
                 <path class="brow r" d="M92,78Q102,74 110,80" stroke="#2b2730" stroke-width="3" fill="none" stroke-linecap="round"/>
-                <g class="eye l"><path d="M50,96Q60,87 70,96Q60,105 50,96Z" fill="#fff"/><circle cx="60" cy="96" r="5.6" fill="#4a3222"/><circle cx="61.6" cy="93.8" r="1.7" fill="#fff"/><path d="M50,96Q60,86 70,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
-                <g class="eye r"><path d="M90,96Q100,87 110,96Q100,105 90,96Z" fill="#fff"/><circle cx="100" cy="96" r="5.6" fill="#4a3222"/><circle cx="101.6" cy="93.8" r="1.7" fill="#fff"/><path d="M90,96Q100,86 110,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
+                <g class="eye l"><path d="M50,96Q60,87 70,96Q60,105 50,96Z" fill="#fff"/><g class="pupil"><circle cx="60" cy="96" r="5.6" fill="#4a3222"/><circle cx="61.6" cy="93.8" r="1.7" fill="#fff"/></g><path d="M50,96Q60,86 70,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
+                <g class="eye r"><path d="M90,96Q100,87 110,96Q100,105 90,96Z" fill="#fff"/><g class="pupil"><circle cx="100" cy="96" r="5.6" fill="#4a3222"/><circle cx="101.6" cy="93.8" r="1.7" fill="#fff"/></g><path d="M90,96Q100,86 110,96" stroke="#241f26" stroke-width="1.7" fill="none" stroke-linecap="round"/></g>
                 <path d="M80,96Q76,110 80,115Q84,112 82,109" stroke="#c99a78" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".5"/>
                 <ellipse cx="52" cy="118" rx="8" ry="5" fill="#e39a8a" opacity=".3"/>
                 <ellipse cx="108" cy="118" rx="8" ry="5" fill="#e39a8a" opacity=".3"/>
                 <path class="mouth" d="M64,132Q80,137 96,132Q80,142 64,132Z" fill="#c76c81"/>
               </svg></div>
               <div class="wave" id="orbOWave">👋</div>
+              </div>
             </div>
             <div class="voicebar"><div class="eq"><i></i><i></i><i></i><i></i><i></i></div><p class="orb-status" id="orbOStatus">Ready</p></div>
           </div>
@@ -340,6 +346,7 @@
 
 
   <!-- Modular scripts (order matters: data/helpers before features that use them) -->
+  <script src="js/gaze.js"></script>
   <script src="js/nav.js"></script>
   <script src="js/voice.js"></script>
   <script src="js/workout.js"></script>
